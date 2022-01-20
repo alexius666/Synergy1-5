@@ -7,7 +7,6 @@ public class Determinant {
         getReduction(matrix, 1);
     }
 
-
     public void getValue() {
         System.out.println("Определитель для данной матрицы: "+this.summ);
         System.out.println("");
