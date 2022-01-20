@@ -80,8 +80,8 @@ public class Main {
         System.out.print("Введите число: ");
         userIn = scanner.nextInt();
         switch (userIn) {
-            case 1: {matrix1.Opredelitel();break;}
-            case 2: {matrix2.Opredelitel();break;}
+            case 1: {matrix1.Pechat();matrix1.Opredelitel();break;}
+            case 2: {matrix2.Pechat();matrix2.Opredelitel();break;}
             case 3: {matrix1.Kvadrat(); matrix1.Pechat();break;}
             case 4: {matrix2.Kvadrat();matrix2.Pechat();break;}
             case 5: {matrix1.Pechat();break;}
